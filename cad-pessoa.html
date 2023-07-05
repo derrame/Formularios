@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Insira seu Nome, Data de Nascimento, Email, Telefone, Estado e Cidade.
+    </h1>
+    <hr>
+    <div>
+            <form>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" value="">
+          </form>
+          <form >
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" id="nascimento" name="nascimento">
+          </form>
+          <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </form>
+          <form>
+            <label for="telefone">Telefone:</label>
+            <input type="phone" id="telefone" name="telefone">
+          </form>
+          <form>
+            <label for="Estado">Estado:</label>
+            <input list="Estado" name="Estado">
+            <datalist id="Estado">
+              <option value="Estado">
+            </datalist>
+          </form>
+          <form>
+            <label for="Cidade">Cidade:</label>
+            <input list="Cidade" name="Cidade">
+            <datalist id="Cidade">
+              <option value="Cidade">
+            </datalist>
+          </form>
+          <form>
+            <input type="submit" value="Cadastrar">
+          </form>
+    </div>
+</body>
+</html>
