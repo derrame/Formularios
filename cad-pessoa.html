@@ -7,13 +7,13 @@
 </head>
 <body>
     <h1>
-        Insira seu Nome, Data de Nascimento, Email, Telefone, Estado e Cidade.
+        Faça seu cadastro:
     </h1>
     <hr>
     <div>
             <form>
             <label for="nome">Nome Completo:</label>
-            <input type="text" id="nome" name="nome" value="">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome aqui...">
           </form>
           <form >
             <label for="nascimento">Data de Nascimento:</label>
@@ -21,25 +21,23 @@
           </form>
           <form>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
+            <input type="text" id="email" name="email" placeholder="exemplo@exemplo.com">
           </form>
           <form>
             <label for="telefone">Telefone:</label>
-            <input type="phone" id="telefone" name="telefone">
+            <input type="text" id="telefone" name="telefone" placeholder="[XX]XXXXX-XXXX">
           </form>
           <form>
             <label for="Estado">Estado:</label>
-            <input list="Estado" name="Estado">
-            <datalist id="Estado">
-              <option value="Estado">
-            </datalist>
+            <select id="Estado" name="Estado">
+              <option value="RS">RS</option>
+            </select>
           </form>
           <form>
             <label for="Cidade">Cidade:</label>
-            <input list="Cidade" name="Cidade">
-            <datalist id="Cidade">
-              <option value="Cidade">
-            </datalist>
+            <select id="Cidade" name="Cidade">
+              <option value="Porto Alegre">Porto Alegre</option>
+            </select>
           </form>
           <form>
             <input type="submit" value="Cadastrar">
